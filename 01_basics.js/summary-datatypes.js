@@ -18,3 +18,11 @@ const anotherid = Symbol('123') // symbol
 
 // Array , Objects , Functions 
 
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive)
+// isme hume copy milta hai 
+
+// heap (non-primitive)
+// isme hume reference milta hai 
