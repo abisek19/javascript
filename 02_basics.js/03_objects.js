@@ -22,7 +22,19 @@ console.log(myobj["mother name"]) // isme aap direct . se nhi print kara sakte v
 
 myobj.email = "nankidevi@gmail.com "
 console.log(myobj.email)
-Object.freeze(myobj)
+// Object.freeze(myobj)
 myobj.email = "bhanuparatp@gmail.com"
 console.log(myobj.email)
 
+// ab freeze ko commeent out krdo taaki chaanges kr sako 
+
+myobj.greeting = function (){
+    console.log("chudlundi")
+}
+
+myobj.greetingTwo = function(){
+    console.log('Hello , $(this.name) is chudlundi ')
+}
+
+console.log(myobj.greeting())
+console.log(myobj.greetingTwo())
