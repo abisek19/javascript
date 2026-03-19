@@ -12,3 +12,18 @@ if (true) {
 }
 console.log(a);
 console.log(b);
+
+// IMP CONCEPT 
+
+addTwo(5) // ye error nhid dega 
+
+function addTwo(num) {
+    return num + 1
+    
+}
+
+addTwo(5) // ye error dega 
+
+const addTwo = function (num){
+    return num + 1
+}
